@@ -1,7 +1,7 @@
 <template>
-  <div class="extensions">
+  <div class="apps">
     <ul class="list">
-      <span class="title">Extensions</span>
+      <span class="title">Contact</span>
       <li v-for="item in items">
         <a v-bind:href="''+item.url">
           <img v-bind:src="'https://img.shields.io/badge/-' + item.name + '-' + item.color +'.svg'" class="shadow">
@@ -12,22 +12,22 @@
 </template>
 <script>
 export default {
-  name: "Extensions",
+  name: "Contact",
   metaInfo: {
-    title: "Extensions"
+    title: "Contact"
   },
   data: function() {
     return {
       items: [
         {
-          name: "Quizlet Assistant",
-          color: "yellow",
-          url: "https://chrome.google.com/webstore/detail//onomhgmepnaepoahbgffmjameginfgkm"
+          name: "Email",
+          color: "blue",
+          url: "mailto:salad242@pqtato.pw"
         },
         {
-          name: "salAD Blocker",
-          color: "yellow",
-          url: "https://chrome.google.com/webstore/detail//ddmladhkbigkncghbhnkebioboipfcpk"
+          name: "Discord",
+          color: "blue",
+          url: "javascript:alert('I am ThePqtatoGalaxy#9001 on Discord')"
         }
       ]
     };

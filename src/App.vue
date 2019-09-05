@@ -1,3 +1,5 @@
+<!-- HTML -->
+
 <template>
   <div id="app">
     <nav>
@@ -14,6 +16,9 @@
         </li>
         <li>
           <router-link to="/apps">Apps</router-link>
+        </li>
+        <li>
+          <router-link to="/contact">Contact</router-link>
         </li>
       </ul>
     </nav>
@@ -38,6 +43,8 @@
   </div>
 </template>
 
+<!-- JavaScript -->
+
 <script>
 export default {
   name: "App",
@@ -51,6 +58,8 @@ export default {
   }
 };
 </script>
+
+<!-- CSS -->
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
@@ -123,8 +132,8 @@ ul.list li {
 }
 ul.list li img {
   height: 30px;
-  margin: 0px 0.5px;
-  padding: 0px 0.5px;
+  margin: 0px 2.5px;
+  padding: 0px 2.5px;
 }
 .title {
   font-size: 2.5em;
@@ -144,5 +153,9 @@ ul.list li img {
 ul.list .title {
   padding: 5px 0px;
   margin: 5px 0px;
+}
+.shadow {
+  -webkit-filter: drop-shadow(0px 0px 3px #222222);
+  filter: drop-shadow(0px 0px 3px #222222);
 }
 </style>
