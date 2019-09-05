@@ -54,7 +54,10 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
