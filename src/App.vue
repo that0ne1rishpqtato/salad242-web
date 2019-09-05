@@ -20,6 +20,8 @@
         <li>
           <router-link to="/contact">Contact</router-link>
         </li>
+        <li>
+          <a href="https://games.salad242.gq">Games</a>
       </ul>
     </nav>
     <!-- <transition name="fade" mode="out-in"> -->
