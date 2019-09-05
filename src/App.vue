@@ -54,7 +54,10 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -108,8 +111,8 @@ nav li a:hover {
 ul.list {
   list-style-type: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   width: 100%;
   align-content: center;
@@ -132,8 +135,8 @@ ul.list li img {
 }
 .home div {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 50vh;
+  left: 50vw;
   transform: translate(-50%, -50%);
   align-content: center;
   text-align: center;
