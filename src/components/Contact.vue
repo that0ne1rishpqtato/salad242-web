@@ -22,7 +22,7 @@ export default {
         {
           name: "Email",
           color: "blue",
-          url: "mailto:salad242@pqtato.pw"
+          url: "mailto:jacob@salad242.gq"
         },
         {
           name: "Discord",
