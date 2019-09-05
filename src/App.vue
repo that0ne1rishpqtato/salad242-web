@@ -22,9 +22,9 @@
         </li>
       </ul>
     </nav>
-    <transition name="fade" mode="out-in">
-      <router-view/>
-    </transition>
+    <!-- <transition name="fade" mode="out-in"> -->
+    <router-view/>
+    <!-- </transition> -->
     <img
       src="https://img.shields.io/badge/-No%20longer%20available-inactive.svg"
       style="position:absolute;left:5px;bottom:5px;height:25px;"
@@ -160,10 +160,10 @@ ul.list .title {
   -webkit-filter: drop-shadow(0px 0px 3px #222222);
   filter: drop-shadow(0px 0px 3px #222222);
 }
-.fade-enter-active, .fade-leave-active {
+/* .fade-enter-active, .fade-leave-active {
   transition: opacity .5s
 }
 .fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
   opacity: 0
-}
+} */
 </style>
