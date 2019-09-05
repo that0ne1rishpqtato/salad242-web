@@ -22,7 +22,9 @@
         </li>
       </ul>
     </nav>
-    <router-view/>
+    <transition name="fade">
+      <router-view/>
+    </transition>
     <img
       src="https://img.shields.io/badge/-No%20longer%20available-inactive.svg"
       style="position:absolute;left:5px;bottom:5px;height:25px;"
