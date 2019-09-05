@@ -28,6 +28,11 @@ export default {
           name: "Discord",
           color: "blue",
           url: "javascript:alert('I am ThePqtatoGalaxy#9001 on Discord')"
+        },
+        {
+          name: "Camden's Discord Server",
+          color: "blue",
+          url: "https://discord.gg/W8MC5dE"
         }
       ]
     };
