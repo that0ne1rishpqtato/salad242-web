@@ -4,7 +4,7 @@
       <span class="title">About</span>
       <li>
         salad242 is the creator of many browsers, extensions, games, and more.
-      </li>
+      </li><br/>
       <li v-for="item in items">
         <a :href="''+item.url">
           <img :src="'https://img.shields.io/badge/-' + item.name + '-' + item.color +'.svg'" :class="'shadow'">
