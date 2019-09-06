@@ -18,10 +18,11 @@
           <router-link to="/apps">Apps</router-link>
         </li>
         <li>
-          <router-link to="/contact">Contact</router-link>
+          <router-link to="/about">About</router-link>
         </li>
         <li>
           <a href="https://games.salad242.gq">Games</a>
+		</li>
       </ul>
     </nav>
     <!-- <transition name="fade" mode="out-in"> -->

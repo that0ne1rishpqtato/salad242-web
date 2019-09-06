@@ -1,7 +1,7 @@
 <template>
   <div class="apps">
     <ul class="list">
-      <span class="title">Contact</span>
+      <span class="title">About</span>
       <li v-for="item in items">
         <a v-bind:href="''+item.url">
           <img v-bind:src="'https://img.shields.io/badge/-' + item.name + '-' + item.color +'.svg'" class="shadow">
@@ -12,32 +12,22 @@
 </template>
 <script>
 export default {
-  name: "Contact",
+  name: "About",
   metaInfo: {
-    title: "Contact"
+    title: "About"
   },
   data: function() {
     return {
       items: [
         {
-          name: "Back",
-          color: "red",
-          url: "#/about"
+          name: "Contact",
+          color: "blue",
+          url: "#/contact"
         },
         {
-          name: "Email",
+          name: "About",
           color: "blue",
-          url: "mailto:jacob@salad242.gq"
-        },
-        {
-          name: "Discord",
-          color: "blue",
-          url: "javascript:alert('I am ThePqtatoGalaxy#9001 on Discord')"
-        },
-        {
-          name: "Camden's Discord Server",
-          color: "blue",
-          url: "https://discord.gg/W8MC5dE"
+          url: "#/about2"
         }
       ]
     };
