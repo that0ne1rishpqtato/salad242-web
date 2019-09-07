@@ -35,7 +35,7 @@ export default {
           url: "javascript:alert('I am ThePqtatoGalaxy#9001 on Discord')"
         },
         {
-          name: "Camden's Discord Server",
+          name: "Kermit's Meme Truck",
           color: "blue",
           url: "https://discord.gg/W8MC5dE"
         }
