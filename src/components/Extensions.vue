@@ -21,12 +21,12 @@ export default {
       items: [
         {
           name: "Quizlet Assistant",
-          color: "yellow",
+          color: "success",
           url: "https://chrome.google.com/webstore/detail//onomhgmepnaepoahbgffmjameginfgkm"
         },
         {
           name: "salAD Blocker",
-          color: "yellow",
+          color: "inactive",
           url: "https://chrome.google.com/webstore/detail//ddmladhkbigkncghbhnkebioboipfcpk"
         }
       ]
