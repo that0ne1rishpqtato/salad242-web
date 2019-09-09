@@ -26,42 +26,42 @@ export default {
         },
         {
           name: "Avocado",
-          color: "success",
+          color: "red",
           url: "https://chrome.google.com/webstore/detail//bgkdgnahbdfddpagnmpkhbgdpepmbjbf"
         },
         {
           name: "Kermit's Meme Browser",
-          color: "success",
+          color: "red",
           url: "https://chrome.google.com/webstore/detail//jpieeijbjnjpfclbbbmfnoncedamonga"
         },
         {
           name: "Steve The Monkey",
-          color: "success",
+          color: "red",
           url: "https://chrome.google.com/webstore/detail//ldjkakppecnkjfcmbcehbmphmkdbhbkj"
         },
         {
           name: "Earls Browser",
-          color: "success",
+          color: "red",
           url: "https://chrome.google.com/webstore/detail//bajbkoongpoeddacnegpakakhemifgmk"
         },
         {
           name: "Fortnite Sans Browser",
-          color: "success",
+          color: "red",
           url: "https://chrome.google.com/webstore/detail//klkodfbmmgmfpmlgmfgfkekeilkdcdmh"
         },
         {
           name: "Patrick",
-          color: "success",
+          color: "red",
           url: "https://chrome.google.com/webstore/detail//cnhcbpmjemifplbaopldlikncpcifjgf"
         },
         {
           name: "Cherry",
-          color: "success",
+          color: "red",
           url: "https://chrome.google.com/webstore/detail//odgpbeipjlaiompgjpfjgpdddoephckk"
         },
         {
           name: "Rainboww",
-          color: "success",
+          color: "red",
           url: "https://chrome.google.com/webstore/detail//ckfbmfccloijkilcokojoecmeipgdbmb"
         }
       ]
