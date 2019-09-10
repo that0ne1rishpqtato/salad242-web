@@ -22,7 +22,7 @@
         </li>
         <li>
           <a href="https://games.salad242.gq">Games</a>
-		</li>
+	</li>
       </ul>
     </nav>
     <!-- <transition name="fade" mode="out-in"> -->
@@ -40,12 +40,15 @@
       src="https://img.shields.io/badge/-Working-success.svg"
       style="position:absolute;left:5px;bottom:86px;height:25px;"
     >
-    <img src="https://img.shields.io/badge/-Temporary-blueviolet.svg" style="position:absolute;left:5px;bottom:113px;height:25px;>
+    <img
+      src="https://img.shields.io/badge/-Temporary-blueviolet.svg"
+      style="position:absolute;left:5px;bottom:113px;height:25px;"
+    >
     <img
       src="https://img.shields.io/badge/-Blocked by LSR7-red.svg"
       style="position:absolute;left:5px;bottom:32px;height:25px"
     >
-    <span style="font-size:15px;position:absolute;left:5px;bottom:111px;">What do the colors mean?</span>
+    <span style="font-size:15px;position:absolute;left:5px;bottom:138px;">What do the colors mean?</span>
   </div>
 </template>
 
