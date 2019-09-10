@@ -20,6 +20,11 @@ export default {
     return {
       items: [
         {
+          name: "Kermits Meme Barrel",
+          color: "blueviolet",
+          url: "https://chrome.google.com/webstore/detail//ifadefgikoofbimjplfdphgmaadiaaon"
+        },
+        {
           name: "Potato",
           color: "red",
           url: "https://chrome.google.com/webstore/detail//eikdpecakdfglplkafngboigefiojocg"
