@@ -38,7 +38,7 @@ export default {
   name: "App",
   metaInfo: {
     title: "",
-    titleTemplate: "%s • salad242",
+    titleTemplate: "%s • Th@t0ne1rishPqtato",
     htmlAttrs: {
       lang: "en"
     },
