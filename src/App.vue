@@ -11,15 +11,6 @@
         <li>
           <router-link to="/browsers">Browsers</router-link>
         </li>
-        <!-- <li>
-          <router-link to="/extensions">Extensions</router-link>
-        </li>
-        <li>
-          <router-link to="/apps">Apps</router-link>
-        </li>
-        <li>
-          <router-link to="/about">About</router-link>
-        </li> -->
       </ul>
     </nav>
     <router-view/>

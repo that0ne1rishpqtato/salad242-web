@@ -5,6 +5,7 @@ import Apps from "./components/Apps.vue";
 import About from "./components/About.vue";
 import About2 from "./components/About2.vue";
 import Contact from "./components/Contact.vue";
+import SimpleCalculator from "./components/SimpleCalculator.vue"
 
 const routes = [
   { path: "/", component: Home },
@@ -13,7 +14,8 @@ const routes = [
   { path: "/apps", component: Apps },
   { path: "/about", component: About },
   { path: "/about2", component: About2},
-  { path: "/contact", component: Contact }
+  { path: "/contact", component: Contact },
+  { path: "/simplecalculator", component: SimpleCalculator}
 ];
 
 export default routes;
