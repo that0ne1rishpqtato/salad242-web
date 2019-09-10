@@ -40,6 +40,7 @@
       src="https://img.shields.io/badge/-Working-success.svg"
       style="position:absolute;left:5px;bottom:86px;height:25px;"
     >
+    <img src="https://img.shields.io/badge/-Temporary-blueviolet.svg" style="position:absolute;left:5px;bottom:113px;height:25px;>
     <img
       src="https://img.shields.io/badge/-Blocked by LSR7-red.svg"
       style="position:absolute;left:5px;bottom:32px;height:25px"
