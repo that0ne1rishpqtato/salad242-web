@@ -11,7 +11,7 @@
         <li>
           <router-link to="/browsers">Browsers</router-link>
         </li>
-        <li>
+        <!-- <li>
           <router-link to="/extensions">Extensions</router-link>
         </li>
         <li>
@@ -19,36 +19,15 @@
         </li>
         <li>
           <router-link to="/about">About</router-link>
-        </li>
-        <li>
-          <a href="https://games.salad242.gq">Games</a>
-	</li>
+        </li> -->
       </ul>
     </nav>
-    <!-- <transition name="fade" mode="out-in"> -->
     <router-view/>
-    <!-- </transition> -->
-    <img
-      src="https://img.shields.io/badge/-No%20longer%20available-inactive.svg"
-      style="position:absolute;left:5px;bottom:5px;height:25px;"
-    >
-    <img
-      src="https://img.shields.io/badge/-Available%20soon-yellow.svg"
-      style="position:absolute;left:5px;bottom:59px;height:25px;"
-    >
-    <img
-      src="https://img.shields.io/badge/-Working-success.svg"
-      style="position:absolute;left:5px;bottom:113px;height:25px;"
-    >
-    <img
-      src="https://img.shields.io/badge/-Temporary-blueviolet.svg"
-      style="position:absolute;left:5px;bottom:86px;height:25px;"
-    >
-    <img
-      src="https://img.shields.io/badge/-Blocked by LSR7-red.svg"
-      style="position:absolute;left:5px;bottom:32px;height:25px"
-    >
-    <span style="font-size:15px;position:absolute;left:5px;bottom:138px;">What do the colors mean?</span>
+    <img src="https://img.shields.io/badge/-No%20longer%20available-inactive.svg" style="position:absolute;left:5px;bottom:5px;height:25px;">
+    <img src="https://img.shields.io/badge/-Available%20soon-yellow.svg" style="position:absolute;left:5px;bottom:59px;height:25px;">
+    <img src="https://img.shields.io/badge/-Working-success.svg" style="position:absolute;left:5px;bottom:86px;height:25px;">
+    <img src="https://img.shields.io/badge/-Blocked by LSR7-red.svg" style="position:absolute;left:5px;bottom:32px;height:25px">
+    <span style="font-size:15px;position:absolute;left:5px;bottom:111px;">What do the colors mean?</span>
   </div>
 </template>
 
@@ -167,10 +146,4 @@ ul.list .title {
   -webkit-filter: drop-shadow(0px 0px 3px #222222);
   filter: drop-shadow(0px 0px 3px #222222);
 }
-/* .fade-enter-active, .fade-leave-active {
-  transition: opacity .5s
-}
-.fade-enter, .fade-leave-to {
-  opacity: 0
-} */
 </style>

@@ -20,6 +20,13 @@ export default {
     return {
       items: [
         {
+          name: "Simple Calculator",
+          color: "success",
+          url: "#/simplecalculator"
+        }
+      ]
+      /* items: [
+        {
           name: "Potato",
           color: "red",
           url: "https://chrome.google.com/webstore/detail//eikdpecakdfglplkafngboigefiojocg"
@@ -64,7 +71,7 @@ export default {
           color: "red",
           url: "https://chrome.google.com/webstore/detail//ckfbmfccloijkilcokojoecmeipgdbmb"
         }
-      ]
+      ] */
     };
   }
 };
