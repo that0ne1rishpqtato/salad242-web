@@ -1,7 +1,7 @@
 <template>
   <div class="apps">
     <ul class="list">
-      <span class="title">About</span>
+      <span class="title">Simple Calculator</span>
       <li>
         Simple Calculator is a browser <i>disguised</i> as a calculator. To unlock it click <b>9 8 5 4</b>.
       </li><br/><br/>

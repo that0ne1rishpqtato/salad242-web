@@ -23,6 +23,11 @@ export default {
           name: "Simple Calculator",
           color: "success",
           url: "#/simplecalculator"
+        },
+        {
+          name: "Discontinued Browsers",
+          color: "blueviolet",
+          url: "#/discontinued"
         }
       ]
     };
