@@ -3,8 +3,8 @@
     <ul class="list">
       <span class="title">Browsers</span>
       <li v-for="item in items">
-        <a v-bind:href="''+item.url">
-          <img v-bind:src="'https://img.shields.io/badge/-' + item.name + '-' + item.color +'.svg'" class="shadow">
+        <a :href="''+item.url">
+          <img :src="'https://img.shields.io/badge/-' + item.name + '-' + item.color +'.svg'" :class="'shadow'">
         </a>
       </li>
     </ul>
@@ -19,11 +19,6 @@ export default {
   data: function() {
     return {
       items: [
-        {
-          name: "Kermits Meme Barrel",
-          color: "blueviolet",
-          url: "https://chrome.google.com/webstore/detail//ifadefgikoofbimjplfdphgmaadiaaon"
-        },
         {
           name: "Potato",
           color: "red",
