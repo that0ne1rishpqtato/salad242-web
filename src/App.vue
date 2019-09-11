@@ -14,6 +14,10 @@
         <li>
           <router-link to="/extensions">Extensions</router-link>
         </li>
+        <li>
+          <!-- The user count is from shields.io which gets it from the Chrome Web Store -->
+          <a href="//users.that0ne1rishpqtato.gq">Users</a>
+        </li>
       </ul>
     </nav>
     <router-view/>
