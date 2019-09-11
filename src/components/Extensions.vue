@@ -23,11 +23,6 @@ export default {
           name: "Quizlet Assistant",
           color: "success",
           url: "https://chrome.google.com/webstore/detail//onomhgmepnaepoahbgffmjameginfgkm"
-        },
-        {
-          name: "salAD Blocker",
-          color: "inactive",
-          url: "https://chrome.google.com/webstore/detail//ddmladhkbigkncghbhnkebioboipfcpk"
         }
       ]
     };
