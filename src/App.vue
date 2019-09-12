@@ -18,6 +18,10 @@
           <!-- The user count is from shields.io which gets it from the Chrome Web Store -->
           <a href="//users.that0ne1rishpqtato.gq">Users</a>
         </li>
+        <li>
+          <!-- Games -->
+          <a href="//games.that0ne1rishpqtato.gq">Games</a>
+        </li>
       </ul>
     </nav>
     <router-view/>
