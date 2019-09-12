@@ -20,7 +20,7 @@ export default {
     return {
       items: [
         {
-          name: "th%40t0ne1rishpqtato",
+          name: "Th%40t0ne1rishPqtato",
           color: "blueviolet",
           url: "#/that0ne1rishpqtato"
         },
