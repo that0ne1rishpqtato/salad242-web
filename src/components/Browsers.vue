@@ -20,14 +20,14 @@ export default {
     return {
       items: [
         {
-          name: "Simple Calculator",
-          color: "success",
-          url: "#/simplecalculator"
+          name: "th%40t0ne1rishpqtato",
+          color: "blueviolet",
+          url: "#/that0ne1rishpqtato"
         },
         {
-          name: "Discontinued Browsers",
+          name: "salad242",
           color: "blueviolet",
-          url: "#/discontinued"
+          url: "#/salad242"
         }
       ]
     };
