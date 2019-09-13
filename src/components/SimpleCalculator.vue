@@ -30,7 +30,7 @@ export default {
         {
           name: "Back",
           color: "blueviolet",
-          url: "#/browsers"
+          url: "#/that0ne1rishpqtato"
         }
       ]
     };
