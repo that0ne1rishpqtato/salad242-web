@@ -40,7 +40,7 @@ export default {
   name: "App",
   metaInfo: {
     title: "",
-    titleTemplate: "%s • Th@t0ne1rishPqtato",
+    titleTemplate: "%s • salad242",
     htmlAttrs: {
       lang: "en"
     },
@@ -72,7 +72,7 @@ nav {
 }
 nav img {
   height: 50px;
-  width: 370px;
+  width: 161px;
   z-index: 50;
   position: absolute;
   top: 0;
@@ -88,7 +88,7 @@ nav ul {
   background-color: #333;
 }
 nav li:first-child {
-  padding-left: 371px;
+  padding-left: 162px;
 }
 nav li {
   float: left;
