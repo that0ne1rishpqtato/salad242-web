@@ -1,7 +1,7 @@
 <template>
   <div class="browsers">
     <ul class="list">
-      <span class="title">Browsers</span>
+      <span class="title"><b>Browsers</b> from salad242</span>
       <li v-for="item in items">
         <a :href="''+item.url">
           <img :src="'https://img.shields.io/badge/-' + item.name + '-' + item.color +'.svg'" :class="'shadow'">
@@ -20,14 +20,54 @@ export default {
     return {
       items: [
         {
-          name: "Th%40t0ne1rishPqtato",
-          color: "blueviolet",
-          url: "#/that0ne1rishpqtato"
+          name: "Potato",
+          color: "red",
+          url: "https://chrome.google.com/webstore/detail//eikdpecakdfglplkafngboigefiojocg"
         },
         {
-          name: "salad242",
+          name: "Avocado",
+          color: "red",
+          url: "https://chrome.google.com/webstore/detail//bgkdgnahbdfddpagnmpkhbgdpepmbjbf"
+        },
+        {
+          name: "Kermit's Meme Browser",
+          color: "red",
+          url: "https://chrome.google.com/webstore/detail//jpieeijbjnjpfclbbbmfnoncedamonga"
+        },
+        {
+          name: "Steve The Monkey",
+          color: "red",
+          url: "https://chrome.google.com/webstore/detail//ldjkakppecnkjfcmbcehbmphmkdbhbkj"
+        },
+        {
+          name: "Earls Browser",
+          color: "red",
+          url: "https://chrome.google.com/webstore/detail//bajbkoongpoeddacnegpakakhemifgmk"
+        },
+        {
+          name: "Fortnite Sans Browser",
+          color: "red",
+          url: "https://chrome.google.com/webstore/detail//klkodfbmmgmfpmlgmfgfkekeilkdcdmh"
+        },
+        {
+          name: "Patrick",
+          color: "red",
+          url: "https://chrome.google.com/webstore/detail//cnhcbpmjemifplbaopldlikncpcifjgf"
+        },
+        {
+          name: "Cherry",
+          color: "red",
+          url: "https://chrome.google.com/webstore/detail//odgpbeipjlaiompgjpfjgpdddoephckk"
+        },
+        {
+          name: "Rainboww",
+          color: "red",
+          url: "https://chrome.google.com/webstore/detail//ckfbmfccloijkilcokojoecmeipgdbmb"
+        },
+        {
+          name: "Back",
           color: "blueviolet",
-          url: "#/salad242"
+          url: "//www.that0ne1rishpqtato.gq/#/browsers"
         }
       ]
     };
