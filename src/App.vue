@@ -11,10 +11,6 @@
         <li>
           <router-link to="/browsers">Browsers</router-link>
         </li>
-        <li>
-          <!-- https://github.com/Kore-Development/that0ne1rishpqtato-web -->
-          <a href="//www.that0ne1rishpqtato.gq">Games</a>
-        </li>
       </ul>
     </nav>
     <router-view/>
